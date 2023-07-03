@@ -8,7 +8,7 @@ test_board = ['#', 'x', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'x']
 display_board(test_board)
 
 
-def player_input():
+def player_input() :
     marker = ''
 
     while not (marker == 'X' or marker == 'O'):
@@ -18,6 +18,12 @@ def player_input():
         return ('X', 'O')
     else:
         return ('O', 'X')
+value=player_input()
+print(value)
+
+def place_marker(board, marker, position):
+    board[position] = marker
+place_marker(test_board,'€',8)
+display_board(test_board)
 
 
-player_input()
