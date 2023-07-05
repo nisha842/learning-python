@@ -4,7 +4,7 @@ def display_board(board):
     print(board[1] + '|' + board[2] + '|' + board[3])
 
 
-test_board = ['#', 'x', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'x']
+test_board = [ '#','x', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'x']
 display_board(test_board)
 
 
@@ -21,9 +21,14 @@ def player_input() :
 value=player_input()
 print(value)
 
+
+
 def place_marker(board, marker, position):
     board[position] = marker
-place_marker(test_board,'€',8)
+place_marker(test_board,'X',8)
 display_board(test_board)
+
+def winning_condition(marker, board):
+    
 
 
