@@ -1,0 +1,9 @@
+1. Write a function to check if input digit is odd. Return True for even, False for odd
+
+Example: 1 => False, 2 => True
+
+2. Use above function to collet odd digits
+
+Example: [1, 2, 3, 4, 5] => [1, 3, 5]
+
+3. Write function which takes list of elements and returns datatype with element and its frequency.
