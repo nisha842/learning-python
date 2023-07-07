@@ -1,0 +1,78 @@
+Boolean data type
+
+True False
+
+if True: num % 2 == 0 ()
+    - will execute this part
+else:
+    - will execute this part
+
+[1,2,3,4,5,6]
+for number in my_list:
+    
+## Dict
+- Notation {'key': value}, key and value could be any datatype such as integer, float, string etc
+{'a': 1}
+where 'a' is key, and 1 is value
+
+- key are unique
+{'a': 1, 'a' : 2, 'a': 3} invalid -> beause 'a' is key which is not unique
+
+input = [1, 2, 1, 1, 3, 4]
+
+key = each number in list 
+value = frequency
+frequency_counter is a Dict
+frequency_counter = {}
+
+for in each entries(let it be number) in input list
+    first run in loop
+        number = 1
+        frequency_counter[1] = 1
+    {1: 1}
+    
+    2nd run in loop
+        number = 2
+        frequency_counter[2] = 1
+    {1: 1, 2: 1}
+
+    3rd run in loop
+        number = 1
+        frequency_counter[1] = frequency_counter[1] + 1 = 1+1
+    {1: 2, 2: 1}
+
+    4th run in loop
+        number = 1
+        frequency_counter[1] = frequency_counter[1] + 1 = 2 + 1
+    
+    {1: 3, 
+    2: 1}
+
+    5th run in loop
+        number = 3
+        frequency_counter[3] = frequency_counter[3] + 1
+                            Above statement has error
+                             = frequency_counter.get(number, 0) + 1
+                             = 0 + 1
+    {1: 3, 
+    2: 1, 
+    3: 1}
+
+    6th run in loop
+        number = 4
+        frequency_counter[4] = frequency_counter.get(number, 0) + 1
+                             = 1
+
+    {1: 3, 
+    2: 1, 
+    3: 1,
+    4: 1}
+
+
+
+value access by key: methods
+    - frequency_counter.get
+
+
+
+input = [1, 2, 1, 1, 3, 4]
