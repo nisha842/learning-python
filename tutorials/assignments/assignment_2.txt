@@ -1,0 +1,28 @@
+1. Write code to print multiplication of 2?
+2. Extend above code to print multiplication from 1 to 10?
+Hint: use f-string to print and use "\n" to print enter
+
+3. Reason the problem and fix the error
+
+# problem 1
+for number in [1, 2, 3, 4]
+    sq_list.append(number * number)
+
+# problem 2
+def dummy_function(number)
+    sq = number * i
+    return i
+dummy_function(3) = 9
+
+# problem 3
+def divide_by_3(number):
+    if number % 3 = 0:
+    return True
+    else:
+    return False
+
+divide_by_3(2) = False
+divide_by_3(9) = True
+
+# problem 4
+write example of list and dict with different methods

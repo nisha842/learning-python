@@ -1,0 +1,7 @@
+Create a board game snake and ladder.
+Rules:
+    1. Board contains 1-100 steps. Dice with 1-6 face. There will be two player.
+    2. Place will start from 1 and their objective is to reach 100. In each player's turn they will roll the dice and the number in
+    dice will be their step they take. We can call such step as cumulative step.
+    3. There random step with positive and negative bounus. Postive bonus will get added and negative bounus will get subtracted
+    from cumulative setp when player reach in such step with bounus.
