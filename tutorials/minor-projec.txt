@@ -5,3 +5,7 @@ Rules:
     dice will be their step they take. We can call such step as cumulative step.
     3. There random step with positive and negative bounus. Postive bonus will get added and negative bounus will get subtracted
     from cumulative setp when player reach in such step with bounus.
+
+1. Create ladder(+) and snake rule(negative)
+2. Create dice
+3. Create two players, and ask them to roll dice
