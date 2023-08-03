@@ -17,6 +17,9 @@ def ladder():
 
 
 def snake():
-    pass
+    snake_rule={}
+    return snake_rule
+
+
 
  
