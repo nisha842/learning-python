@@ -15,4 +15,8 @@ def ladder():
         ladder_rule[start_point] = end_point
     return ladder_rule
 
+
+def snake():
+    pass
+
  
