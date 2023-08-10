@@ -1,0 +1,49 @@
+git status
+
+git add 
+
+git status
+- green are added
+- red are added
+
+git commit -m ''
+
+git push
+
+
+class player:
+    def __init__(self, name):
+        self.name = class
+
+1
+    name: Nisha(before starting game. Initialization game)
+    positon: 5
+    ladder_count:
+    snake_count:
+
+2
+    name: Shishir(before starting game. Initialization game)
+    position: 3
+    ladder_count
+    snake_count
+
+3
+    name: Isha(before starting game. Initialization game)
+    position: 2
+    ladder_count
+    snake_count
+
+4
+    name: tate(before starting game. Initialization game)
+    positon: 1
+    ladder_count
+    snake_count
+
+
+player_1 = player('Nisha')
+while true
+    dice = roll_the_dice()
+    palyer_1.update_positon(positon=dice)
+    if palyer_1.positon >= 100:
+        print("palyer_1.name is winner")
+    

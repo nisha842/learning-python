@@ -30,7 +30,7 @@ print(squared_dict)
 
 #nested structure
 
-class method#Constructor method that initializes the object's attributes when an instance is created.
+# class method#Constructor method that initializes the object's attributes when an instance is created.
 class player:
     def __init__(self,name):
         self.name=name
@@ -38,6 +38,8 @@ class player:
 
     def set_position(self,position):
         self.position=position
+
+
 
 
 
